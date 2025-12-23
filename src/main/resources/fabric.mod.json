@@ -16,10 +16,13 @@
 
 	"environment": "*",
 	"entrypoints": {
-		"client": [
-			"pl.lordtricker.modid.client.modidClient"
-		]
-	},
+        "main": [
+                "pl.lordtricker.modid.ModTemplate"
+        ],
+        "client": [
+                "pl.lordtricker.modid.client.ModTemplateClient"
+        ]
+},
 	"mixins": [
 		{
 			"config": "modid.client.mixins.json",

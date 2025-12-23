@@ -1,7 +1,7 @@
-package pl.lordtricker.modid.client.config;
+package pl.lordtricker.modid.config;
 
-public class Config {
-
+public class ModConfig {
+    public boolean adsEnabled = false;
     public boolean attackDelayTutorEnabled = false;
     public boolean attackDelayTutorSoundEnabled = true;
     public boolean attackDelayTutorTextEnabled = true;
